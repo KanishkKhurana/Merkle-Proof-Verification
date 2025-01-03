@@ -288,7 +288,7 @@ Now we will start verifying the Merkle Proof for transaction inclusion.
 
    Upon decoding this output you can verify that `true` is returned.
 
-   For beginners I also recommend deploying this contract on remix and play with it.
+   For beginners I also recommend deploying this contract on [remix](https://remix.ethereum.org/) and play with it.
 
    ## Discussion and Support
    Feel free to contribute to this project by creating issues or opening pull request. 
