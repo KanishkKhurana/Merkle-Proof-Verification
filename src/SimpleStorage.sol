@@ -13,14 +13,9 @@ contract SimpleStorage {
         emit StringAdded(_data, strings.length - 1); // Emit event after adding the string
     }
 
-    // Get the number of strings in the array (optional helper)
+    // Get the number of strings in the array
     function getStringCount() public view returns (uint256) {
         return strings.length;
     }
 
-    // Get a string at a specific index
-    function getStringAt(uint256 index) public view returns (string memory) {
-        require(index < strings.length, "Index out of bounds");
-        return strings[index];
-    }
 }

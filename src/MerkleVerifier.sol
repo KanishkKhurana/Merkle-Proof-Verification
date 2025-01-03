@@ -4,7 +4,9 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
 
 contract MerkleVerifier {
-    bytes32 public verifiedStateRoot; // Stores the trusted state root (Merkle root)
+    
+    // Stores the trusted state root (Merkle root)
+    bytes32 public verifiedStateRoot; 
 
     // Event to emit when a state root is updated
     event StateRootUpdated(bytes32 indexed newStateRoot);
